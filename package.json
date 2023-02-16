@@ -1,5 +1,5 @@
 {
-  "name": "pjtest",
+  "name": "Zen-Todo",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -8,11 +8,14 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "package": "com.yellhtetaung.todo_list",
   "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.17.3",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-swipe-list-view": "^3.2.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

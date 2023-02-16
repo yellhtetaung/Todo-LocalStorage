@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "pjtest",
-    "slug": "pjtest",
+    "name": "Zen-Todo",
+    "slug": "Zen-Todo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.jpg",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yellhtetaung.todo_list"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7ff8fca-d44f-458f-b146-c3e83c469e60"
+      }
     }
   }
 }
